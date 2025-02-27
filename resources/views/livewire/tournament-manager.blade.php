@@ -39,9 +39,8 @@
         </div>
 
         <div class="mb-4">
-            <label for="tournament_type" class="block text-gray-700 font-bold mb-2">Tournament Type:</label>
             <div>
-                <label for="tournament_type">Tournament Type:</label>
+            <label for="tournament_type" class="block text-gray-700 font-bold mb-2">Tournament Type:</label>
                 <select id="tournament_type"  wire:model="tournament_type" class="w-full px-3 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500 dark:text-slate-900 mt-2 text-sm">
                     <option value="0"></option>
                     <option value="1">Varsity 18 Holes</option>
@@ -52,7 +51,7 @@
                     <option value="6">Varsity 36 Holes</option>
                 </select>
                 @error('tournament_type') <span class="text-red-500">{{ $message }}</span> @enderror
-        </div>
+            </div>
 
         <div class="mb-4">
             <label for="teams" class="block text-gray-700 font-bold mb-2">Select Teams:</label>
