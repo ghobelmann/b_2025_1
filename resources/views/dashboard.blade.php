@@ -1,8 +1,11 @@
 <x-app-layout>
- <div class="text-center">
-     <flux:heading size="xl">DeSoto Golf Coaches Page</flux:heading>
+ <div class="text-center w-full">
+     <flux:heading size="h1">DeSoto Golf Coaches Page</flux:heading>
 
-     <img src="{{ asset('images/teams/85.png') }}" alt="Team Logo 2" width="250" height="250">
+     <div class="grid place-items-center v-screen">
+         <img src="{{ asset('images/teams/85.png') }}" alt="Logo" class="w-[250px] h-[250px] object-cover">
+     </div>
+
 
  </div>
 
