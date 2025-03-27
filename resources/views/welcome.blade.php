@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>KGCA</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -29,7 +29,7 @@
 
                     <main class="mt-6">
                         ]<div>
-                            <h1>Kansas Golf Scores</h1>
+                            <h1>Kansas Golf Scores 2025</h1>
                         </div>
                     </main>
 
