@@ -1,7 +1,7 @@
 <x-app-layout>
 
     <div class="container ml-72">
-        <h1 class="text-3xl font-semibold text-left text-gray-800 mb-8">Golf Stats</h1>
+        <h1 class="text-3xl font-semibold text-left text-gray-800 mb-8">Player Stats</h1>
 
         <div class="overflow-x-auto bg-white shadow-lg rounded-lg ">
             <table class="min-w-full table-auto">

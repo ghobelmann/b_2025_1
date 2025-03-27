@@ -1,10 +1,11 @@
 <x-app-layout>
-    <div class="max-w-6xl mx-auto bg-white p-6 rounded-lg shadow-lg">
-        <h2 class="text-2xl font-bold mb-4">Kansas High Schools</h2>
-        <div class="overflow-x-auto">
-            <table class="min-w-full bg-white border border-gray-200 rounded-lg shadow-md">
-                <thead>
-                <tr class="bg-gray-200">
+    <div class="container ml-72">
+        <h1 class="text-3xl font-semibold text-left text-gray-800 mb-8">School Information</h1>
+
+        <div class="overflow-x-auto bg-white shadow-lg rounded-lg ">
+            <table class="min-w-full table-auto">
+                <thead class="bg-gray-800 text-white">
+                <tr>
                     <th class="p-3 border">School Name</th>
                     <th class="p-3 border">Coach Name</th>
                     <th class="p-3 border">Classification</th>

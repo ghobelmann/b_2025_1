@@ -1,10 +1,8 @@
 <x-app-layout>
+    <div class="container ml-72">
+        <h1 class="text-3xl font-semibold text-left text-gray-800 mb-8">Tournament Stats</h1>
 
-
-    <div class="container mx-auto ml-72">
-        <h1 class="text-3xl font-semibold text-center text-gray-800 mb-8">Golf Tournaments</h1>
-
-        <div class="overflow-x-auto bg-white shadow-lg rounded-lg">
+        <div class="overflow-x-auto bg-white shadow-lg rounded-lg ">
             <table class="min-w-full table-auto">
                 <thead class="bg-gray-800 text-white">
                 <tr>
