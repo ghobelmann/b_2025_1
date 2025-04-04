@@ -19,10 +19,10 @@
 <!-- Main Content -->
 <main class="flex-grow flex items-center justify-center mt-20">
 
-    <div class="grid place-items-center v-screen">
-        <img src="{{ asset('images/kgca.webp') }}" alt="Logo" class="w-[100%] h-[100%] object-cover">
-    </div></main>
+{{--    <div class="grid place-items-center v-screen">--}}
+{{--        <img src="{{ asset('images/kgca.webp') }}" alt="Logo" class="w-[100%] h-[100%] object-cover">--}}
+{{--    </div></main>--}}
 
 @livewireScripts
-</body>
+
 </html>
